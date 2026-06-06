@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MrXT Optimizer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Inter',sans-serif;
+}
+
+body{
+background:#000;
+color:#fff;
+overflow-x:hidden;
+}
+
+header{
+width:100%;
+padding:30px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:fixed;
+top:0;
+left:0;
+backdrop-filter:blur(10px);
+background:rgba(0,0,0,.4);
+z-index:999;
+}
+
+.logo{
+font-size:28px;
+font-weight:800;
+}
+
+header a{
+color:#fff;
+text-decoration:none;
+font-size:18px;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+padding:120px 20px 50px;
+text-align:center;
+}
+
+.tag{
+color:#8f8f8f;
+font-size:14px;
+letter-spacing:3px;
+text-transform:uppercase;
+margin-bottom:30px;
+}
+
+.hero h1{
+font-size:clamp(55px,8vw,110px);
+font-weight:800;
+line-height:1;
+}
+
+.hero h2{
+font-size:clamp(35px,5vw,70px);
+font-weight:700;
+color:#5f5f5f;
+margin-bottom:40px;
+}
+
+.download{
+display:inline-block;
+padding:18px 42px;
+background:white;
+color:#0071e3;
+text-decoration:none;
+border-radius:999px;
+font-size:20px;
+font-weight:700;
+transition:.3s;
+}
+
+.download:hover{
+transform:translateY(-4px);
+box-shadow:0 15px 40px rgba(255,255,255,.15);
+}
+
+.showcase{
+margin-top:60px;
+width:min(1200px,95%);
+position:relative;
+}
+
+.showcase::before{
+content:"";
+position:absolute;
+inset:-50px;
+background:radial-gradient(circle,
+rgba(0,120,255,.25),
+transparent 70%);
+filter:blur(70px);
+z-index:-1;
+}
+
+.showcase img{
+width:100%;
+display:block;
+border-radius:20px;
+border:1px solid rgba(255,255,255,.08);
+box-shadow:
+0 0 40px rgba(255,255,255,.05),
+0 0 120px rgba(0,102,255,.15);
+}
+
+footer{
+padding:80px 10%;
+border-top:1px solid #111;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:40px;
+}
+
+footer h3{
+margin-bottom:15px;
+}
+
+footer ul{
+list-style:none;
+}
+
+footer li{
+color:#888;
+margin:10px 0;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">MrXT®</div>
+<a href="#">Início</a>
+</header>
+
+<section class="hero">
+
+<div class="tag">
+OTIMIZAÇÃO • PERFORMANCE • FPS
+</div>
+
+<h1>MrXT Optimizer</h1>
+<h2>Desempenho de outro nível.</h2>
+
+<a
+class="download"
+href="https://drive.google.com/file/d/1HmwDTs4Fv63TqcXy22uUNPyIem3OK6vL/view"
+target="_blank">
+Baixar agora
+</a>
+
+<div class="showcase">
+
+<!-- TROCA PELO LINK DIRETO DA IMAGEM -->
+<img src="https://i.postimg.cc/4NwLnJsr/Captura-de-ecra-2026-06-06-211118.png" alt="MrXT Optimizer">
+
+
+</div>
+
+</section>
+
+<footer>
+
+<div>
+<h3>Produto</h3>
+<ul>
+<li>Início</li>
+<li>Download</li>
+<li>Sobre</li>
+</ul>
+</div>
+
+<div>
+<h3>Recursos</h3>
+<ul>
+<li>Funcionalidades</li>
+<li>Ajuda</li>
+<li>Documentação</li>
+</ul>
+</div>
+
+<div>
+<h3>Comunidade</h3>
+<ul>
+<li>Discord</li>
+<li>Feedback</li>
+<li>Blog</li>
+</ul>
+</div>
+
+<div>
+<h3>Contacto</h3>
+<ul>
+<li>Email</li>
+<li>Suporte</li>
+<li>Termos</li>
+</ul>
+</div>
+
+</footer>
+
+</body>
+</html>
